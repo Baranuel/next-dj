@@ -57,4 +57,9 @@ export default Main;
 const MainCss = styled.main`
   width: 65%;
   margin: 0 auto;
+
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+    padding: 1rem;
+  }
 `;
